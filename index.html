@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Author : Jomei izuchukwu -->
+   
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Go NFT | welcome to the Multiverse of digital arts.</title>
+    <link rel="shortcut icon" href="images/nft-icon.gif" />
+    
+    <link rel="stylesheet" href="./css/bootstrap/bootstrap.min.css"/> 
+    <link rel="stylesheet" href="./css/boxicons.min.css" />    
+
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+
+
+  
+<script src="https://unpkg.com/scrollreveal"></script>
+<script type="module">
+  import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.mjs'
+</script>
+
+
+    <!--  -->
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <div class="body-bg-circle"></div>
+  <header>
+    <nav>
+    <div class="container">
+      <a href="index.html" class="logo"><span class="logo-span p-2">GO</span> NFT</a>    
+  
+      <a href="wallet.html" class="d-sm-inline-block d-lg-none"><small class="ms-1 p-2" id="bg-drkGreen">Conect wallet<i class="bx bx-wallet"></i></small></a>    
+      <article class="d-flex align-items-center">
+       <!-- userIcon -->
+      <a href="#prof-img" class="d-sm-inline-block me-sm-3 d-lg-none"><span class="bx bxs-user ms-1"></span></a>    
+
+        <ul class="nav_items me-lg-5">
+          <li class="nav-lists"><a href="index.html" class="nav-links">Home</a></li>
+          <li class="nav-lists"><a href="index.html#about" class="nav-links">About</a></li>
+          <li class="nav-lists"><a href="index.html#gainers" class="nav-links">Gainers</a></li>
+          <li class="nav-lists"><a href="index.html#FAQ" class="nav-links">FAQS</a></li>
+          <li class="nav-lists"><a href="wallet.html" class="nav-links">Wallet</a></li>
+          <li class="nav-lists"><a href="profile.html" class="nav-links">Profile</a></li>
+        </ul>
+
+        <!-- search -->
+        <div class="search">
+        <label class="search-box">
+          <form method="GET">
+            <input type="text" placeholder="Search...." required>
+          </form>
+        </label>
+        <button href="#" type="submit" class="" id="nav_search-btn">Search</button>
+      </div>
+
+        <!-- search font  -->
+        <i class="bx bx-search  me-sm-3" id="search-icon"></i>
+
+
+        <!-- menu control nav  button -->
+        <button id="menuBtn" class="nav-button">
+          <span class="one"></span>
+          <span class="two"></span>
+          <span class="three"></span>
+        </button>
+
+      </article>
+      </div>
+    </nav> 
+  </header>
+
+  <main>
+      
+    <article class="banner">
+      <div class="container">
+      <div class="row ">
+         <div class="col-sm-12 col-md-12 col-lg-6">
+         <div class="banner-data mt-4">
+         <h1 class="headline-lg banner-text" id="banr-txt1">Get a hold On Incredibliy rare<br/> <span>digital arts</span> inspired by Web.3 </h1>
+         <p class="header-md text-light" id="banr-txt2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam, aperiam.</p>
+         <a href="#" class="btn NFT-btn mb-2" id="banr-btn"><i class="bx bxl-twitter"></i> Lets get Started </a>
+         <a href="#" class="btn NFT-btn-outline mb-2 text-dark" id="banr-btn2"><i class="bx bxl-discord"></i> Our discord channel</a>
+        </div>  
+         <!--acceptable coins  ['bitcon', 'etherium' 'etc']-->
+          <div class="d-flex mt-3">
+
+            <img src="./images/bnb.svg" alt="" class="me-3 digi-coins img-fluid" id="digi-coins"/>
+
+            <img src="./images/btc.svg" alt=""   class="me-3 digi-coins img-fluid" id="digi-coins"/>
+
+            <img src="./images/usdt.svg" alt=""  class="me-3 digi-coins img-fluid" id="digi-coins"/>
+
+            <img src="./images/eth.svg" alt="" class="me-3 digi-coins img-fluid" id="digi-coins"/> 
+
+          </div>  
+          </div>
+          <!-- acceptable coin section/ -->
+
+      <div class="col-sm-12 col-md-12 col-lg-6">
+        <div class="d-flex align-items-center gx-2 ">
+          
+          <div class="banner-img bnr-img-1 border" id="bnr-img-i">
+            <img src="./images/showcase-8.gif" alt="nf-dope-ape"  class="img-fluid" loading="lazy;"/>  
+          </div>
+          
+          <div class="banner-img bnr-img-2 border"  id="bnr-img-ii">
+            <img src="./images/nft-wolf-alt.png " alt="nf-wolfer" class="img-fluid" loading="lazy"/>  
+          </div>
+          
+          <div class="banner-img  border" id="bnr-img-iii">
+            <img src="./images/main-ape _alt.jpg " alt="nfape"  class="img-fluid" loading="lazy"/>  
+          </div>
+      </div>
+      </div>
+          <!-- end of initaial banner img by 3 cols -->
+       </div> 
+      </div>
+    </article>
+
+
+    <!--  About the project -->
+     <section id="about">
+       <div class="container">
+         <div class="about-card border text-center">
+           <h5 class="title-md mb-5" id="about-head">About <span class="about-span">Project</span> &nbsp; <span class="bx bx-planet"></span></h5>
+           <p class="body-md about_p" id="about-p">
+           Most simply, an NFT is an entry on a blockchain, the same decentralized digital ledger technology that underlies cryptocurrencies like bitcoin. We are a vast platform. But unlike most bitcoin–which is fungible, meaning that one coin is essentially indistinguishable from another and equivalent in value–tokens on these blockchains are non-fungible. That means they are unique, so they can represent one-of-a-kind things, like a rare William Shatner headshot or even the title to a piece of real estate. which 
+           we GO-NFT indtend to be as ur network has only become ever so stronger.
+           </p>
+         </div>
+       </div>
+     </section>
+
+<style>
+    .swiper-slide 
+    {  width: 360px;  }
+    .swiper-slide img {
+      display: block  }
+    </style>
+
+  <section class="container">
+    <div class="container">
+      <h2 class="label-md swipe-txt">Non-Fungible Tokens.</h2>
+      <h3 class="mb-4 label-md swipe-txt"><i>Discover new items</i></h3>
+      <i class="d-flex justify-content-end mb-4 text-white">see more <i class="mylink">&nbsp;>></i></i>
+    </div>
+  <div class=" specialCards p-2">
+
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">   
+        <div class="NftCard2 slide-cards p-3 "> 
+          <!-- user image -->
+          <div class="d-flex align-items-center mb-4">
+          <img src="./images/main-ape.jpg" class="nft-user img-fluid" alt="userimg">
+          <h6 class="nft-username ms-2 ">Andrew Maguire</h6>
+          </div>
+          <!-- end ofuser name -->
+        <img src="./images/banner-05.jpg" class="NFTslidePIC img-fluid" alt="nftcard-img" /> <!-- main nft-image -->
+        <h3 class="h6 mb-4 text-light mt-2">can you dig it?</h3>
+        <div class="d-flex justify-content-between align-items-center">
+          <div>
+               <span class="text-white mb-3">Price Value</span>
+            <h5><img src="./images/eth.svg" class="digi-coins"/> .045 ETH</h5>
+          </div>
+          <button class="btn NFT-btn-outline"><i>BID</i></button>  
+        </div>
+       </div> 
+
+      </div>
+
+      <div class="swiper-slide">
+        <div class="NftCard2 slide-cards p-3 "> 
+          <!-- user image -->
+          <div class="d-flex align-items-center mb-4">
+          <img src="./images/fish.jpg" class="nft-user img-fluid" alt="userimg">
+          <h6 class="nft-username ms-2 ">Beck</h6>
+          </div>
+          <!-- end of the user name -->
+        <img src="./images/portfolio-01.jpg" class="NFTslidePIC  img-fluid alt="nftcard-img" /> <!-- main nft-image -->
+        <h3 class="h6 mb-4 text-light mt-2">can you dig it?</h3>
+        <div class="d-flex justify-content-between align-items-center">
+          <div>
+            <span class="text-white mb-3">Price Value</span>
+            <h5><img src="./images/eth.svg" class="digi-coins"/>  0.13 ETH</h5>
+          </div>
+          <button class="btn NFT-btn-outline"><i>BID</i></button>
+        </div>
+       </div>  
+      
+      </div>
+
+      <div class="swiper-slide">
+        <div class="NftCard2 slide-cards p-3 "> 
+          <!-- user image -->
+          <div class="d-flex align-items-center mb-4">
+          <img src="./images/avt-12.webp" class="nft-user img-fluid" alt="userimg">
+          <h6 class="nft-username ms-2 ">Quenk</h6>
+          </div>
+          <!-- end of the user name -->
+          <img src="./images/card-item-7.webp" class="NFTslidePIC  img-fluid alt="nftcard-img" />  <!-- main nft-image -->
+        <h3 class="h6 mb-4 text-light mt-2">can you dig it?</h3>
+        <div class="d-flex justify-content-between align-items-center">
+          <div>
+            <span class="text-white mb-3">Price Value</span>
+            <h5><img src="./images/btc.svg" class="digi-coins"/> 0.0045 BSC</h5>
+          </div>
+          <button class="btn NFT-btn-outline"><i>BID</i></button>  
+        </div>
+       </div>              
+      </div>
+      <div class="swiper-slide">
+        <div class="NftCard2 slide-cards p-3 "> 
+          <!-- user image -->
+          <div class="d-flex align-items-center mb-4">
+          <img src="./images/client-6.png" class="nft-user img-fluid" alt="userimg">
+          <h6 class="nft-username ms-2 ">cyberqueen</h6>
+          </div>
+          <!-- end of the user name -->
+          <img src="./images/client-10.png" class="NFTslidePIC  img-fluid alt="nftcard-img" /><!-- main nft-image -->
+        <h3 class="h6 mb-4 text-light mt-2">can you dig it?</h3>
+        <div class="d-flex justify-content-between align-items-center">
+          <div>
+            <span class="text-white mb-3">Price Value</span>
+            <h5><img src="./images/btc.svg" class="digi-coins"/> 0.0055 BSC</h5>
+          </div>
+          <button class="btn NFT-btn-outline"><i>BID</i></button>  
+        </div>
+       </div>  
+
+      </div>
+      
+      <div class="swiper-slide">
+        <div class="NftCard2 slide-cards p-3 "> 
+          <!-- user image -->
+          <div class="d-flex align-items-center mb-4">
+          <img src="./images/avt-12.webp" class="nft-user img-fluid" alt="userimg">
+          <h6 class="nft-username ms-2 ">Quenk</h6>
+          </div>
+          <!-- end of the user name -->
+        <img src="./images/banner-03.jpg" class="NFTslidePIC  img-fluid alt="nftcard-img" /> <!-- main nft-image -->
+        <h3 class="h6 mb-4 text-light mt-2">can you dig it?</h3>
+        <div class="d-flex justify-content-between align-items-center">
+          <div>
+            <span class="text-white mb-3">Price Value</span>
+            <h5><img src="./images/usdt.svg" class="digi-coins"/> 
+            313 USDT</h5>
+          </div>
+          <button class="btn NFT-btn-outline"><i>BID</i></button>
+        </div>
+      </div>  
+
+      </div>
+      <div class="swiper-slide">
+        <div class="NftCard2 slide-cards p-3 "> 
+          <!-- user image -->
+          <div class="d-flex align-items-center mb-4">
+          <img src="./images/main-ape.jpg" class="nft-user img-fluid" alt="userimg">
+          <h6 class="nft-username ms-2 ">Andrew Maguire</h6>
+          </div>
+          <!-- end of the user name -->
+        <img src="./images/avt-3.webp" class="NFTslidePIC  img-fluid alt="nftcard-img" /> <!-- main nft-image -->
+        <h3 class="h6 mb-4 text-light mt-2">can you dig it?</h3>
+        <div class="d-flex justify-content-between align-items-center">
+          <div>
+            <span class="text-white mb-3">Price Value</span>
+            <h5><img src="./images/eth.svg" class="digi-coins"/> 0.213 ETH</h5>
+          </div>
+          <button class="btn NFT-btn-outline"><i>BID</i></button>
+        </div>
+       </div>  
+
+      </div>
+
+      <div class="swiper-slide">
+          <div class="NftCard2 slide-cards p-3 "> 
+              <!-- user image -->
+              <div class="d-flex align-items-center mb-4">
+              <img src="./images/avt-12.webp" class="nft-user img-fluid" alt="userimg">
+              <h6 class="nft-username ms-2 ">Andrew Maguire</h6>
+              </div>
+              <!-- end of the user name -->
+            <img src="./images/client-10.png" class="NFTslidePIC  img-fluid alt="nftcard-img" /> <!-- main nft-image -->
+            <h3 class="h6 mb-4 text-light mt-2">can you dig it?</h3>
+            <div class="d-flex justify-content-between align-items-center">
+              <div>
+                <span class="text-white mb-3">Price Value</span>
+                <h5><img src="./images/btc.svg" class="digi-coins"/> 0.0045 BSC</h5>
+              </div>
+              <button class="btn NFT-btn-outline"><i>BID</i></button>  
+            </div>
+           </div>       
+      </div>
+
+    </div>
+    <div class="swiper-pagination"></div>
+    
+  <!-- If we need navigation buttons -->
+  <article class="float-end d-none">
+  <div class="swiper-button-prev d-none"></div>
+  <div class="swiper-button-next d-none"></div>
+</article>
+
+  </div>
+  </section>
+     
+
+    <!--Crystal cards SECTION--->
+    <section class="crystal-cards" id="crystal-cards">
+      <div class="container">
+       <div class="row gy-3 justify-content-center pt-4">
+        <div class="col-sm-10 col-md-6 col-lg-4">
+        <div class="crystal-card first p-1">
+        <div class="crystal-card-img ">
+          <img src="./images/nft-spira.jpg" class="img-fluid  mx-auto" alt="" />
+        </div>
+        <div class="text-center">
+          <h3 class="label-lg mb-3 pt-5 position-relative ">Mint Card 1</h3>
+          <h6 class="mb-3 label-md text-center">
+            Lorem  elit. Nam mollitia voluptatem magnam.
+          </h6>
+          <span class="cc-span">sum lor sit amet.</span>
+        </div>
+       </div> 
+        </div>
+
+      <div class="col-sm-10 col-md-6 col-lg-4">
+        <div class="crystal-card middle p-1">
+        <div class="crystal-card-img ">
+          <img src="./images/nft-brid.jpg" class="img-fluid  mx-auto" alt="" />
+        </div>
+        <div class="text-center">
+          <h3 class="label-lg mb-3 pt-5 position-relative ">Mint Card 2</h3>
+          <h6 class="mb-3 label-md text-center">
+            Feather blue
+          </h6>
+          <span class="cc-span">sum lor sit amet.</span>
+        </div>
+       </div> 
+      </div>
+
+      <div class="col-sm-10 col-md-6 col-lg-4">
+        <div class="crystal-card third p-1">
+        <div class="crystal-card-img">
+          <img src="./images/nft-aqua.jpg" class="img-fluid  mx-auto" alt="" />
+        </div>
+        <div class="text-center">
+          <h3 class="label-lg mb-3 pt-5 position-relative ">Mint Card 3</h3>
+          <h6 class="mb-3 label-md text-center">
+            Lorem Allitia voluptatem magnam.
+          </h6>
+          <span class="cc-span">sum lor sit amet.</span>
+        </div>
+       </div> 
+      </div>
+      </div>
+      </div>
+    </section> 
+    <!--crystal cards/ -->
+  
+
+    <section class="show-cards">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-sm-12 col-md-6 col-lg-4">
+           <div class="NftCardiii p-2"> 
+             <!-- user image -->
+             <div class="nftCardTabBg d-flex align-items-center mb-4">
+             <img src="./images/avatar1.png" class="nft-user img-fluid" alt="userimg">
+             <h6 class="nft-username ms-2 ">@African Enthusiast</h6>
+             </div>
+             <!-- end of the user name -->
+           <img src="./images/showcase-7.jpg" style="height: auto; object-position: center; object-fit: cover;" class="NFT_PIC img-fluid" alt="nftcard-img" /> <!-- main nft-image -->
+           <h3 class="body-sm mt-1 mb-4">Native</h3>
+           <div class="">
+             <div class="nftCardTabBg d-flex justify-content-between align-items-center p-2">
+              <article>
+               <h6 class="label-md">A real traditional ruler of the old world, born to protect.</h6>
+               <h5 class="body-md"><i></i>0.01 ETH</h5>
+              </article>
+
+              <a href="#" class="btn NFT-btn-outline">Bid Now</a> 
+             </div>
+           </div>
+          </div>  
+          </div> 
+ 
+          <div class="col-sm-12 col-md-6 col-lg-4">
+           <div class="NftCardiii p-2"> 
+             <!-- user image -->
+             <div class="nftCardTabBg d-flex align-items-center mb-4">
+             <img src="./images/main-ape.jpg" class="nft-user img-fluid" alt="userimg">
+             <h6 class="nft-username ms-2 ">@Smoke Vibe</h6>
+             </div>
+             <!-- end user name -->
+           <img src="./images/showcase-4.jpg" class="NFT_PIC img-fluid" alt="nftcard-img" /> <!-- main nft-image -->
+           <h3 class="body-sm mt-1 mb-4">Begining</h3>
+           <div class="">
+             <div class="nftCardTabBg d-flex justify-content-between align-items-center p-2">
+            <article> 
+               <h6 class="label-md mt-1 mb-4">Classic Zombie & zombie slayer, Offical Madness</h6>
+               <h5 class="body-md">0.054 ETH</h5>
+            </article>
+            <a href="#" class="btn NFT-btn-outline">Bid Now</a> 
+            </div>
+           </div>
+          </div>  
+          </div> 
+ 
+          <div class="col-sm-12 col-md-6 col-lg-4">
+           <div class="NftCardiii p-2"> 
+             <!-- user image -->
+             <div class="nftCardTabBg d-flex align-items-center mb-4">
+             <img src="./images/nft-bull.jpg" class="nft-user img-fluid" alt="userimg">
+             <h6 class="nft-username ms-2 ">@Beck</h6>
+             </div>
+             <!-- end  user name -->
+           <img src="./images/ape-1.png" class="NFT_PIC img-fluid" alt="nftcard-img" /> <!-- main nft-image -->
+           
+           <h3 class="body-sm mt-1 mb-4">Reactive Bananas</h3>
+           <div class="">
+           <div class="nftCardTabBg d-flex justify-content-between align-items-center p-2">
+            <article>
+              <h6 class="label-md mt-1 mb-4">Layed Back Meta Ape Web 3.0 inspired</h6>
+               <h5 class="body-md">0.013 ETH</h5>
+            </article>
+            
+             <a href="#" class="btn NFT-btn-outline ">Bid Now</a> 
+            </div>
+           </div>
+          </div>  
+          </div>
+         </div>
+         </div>
+    </section>
+
+
+    
+    <!-- top sellers -->
+    <section class="" id="gainers">
+      <div class="container">
+     <div class="row text-center">
+      <div class="col-lg-12">
+      <span class="title-lg text-white mb-3"> <span class="span-echo"></span>Discover New designers and Top Sellers</span>
+       <h4 class="title-md text-white mt-3 ">Top Sellers This Month</h4> 
+      </div> 
+      </div>
+      <div class="row mx-auto text-center">
+         <!-- the top sellers display box -->
+         <div class="tps-data-block mx-auto p-3 border">
+     
+        <div class="row mx-auto text-center">
+        <div class="col-sm-12 col-md-6 col-lg-6">
+        <!-- top seller img profile -->
+          <div class="tps-card d-flex align-items-center text-whitemb-3 p-4">
+          <span class="bx bx-star"></span>
+          <div class="t-seller-img ms-3">
+            <img src="./images/nft-wolf.jpeg" class="img-fluid" alt="user"> 
+          </div>
+          <h5 class="ms-2">@skywalker<br/><span class="h6">ipsum dolor</span></h5>
+          </div>
+        <!-- top seller img profile/ --> 
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6">
+          <!-- top seller img profile -->
+            <div class="tps-card d-flex align-items-center mb-3 p-4">
+            <span class="bx bx-star"></span>
+            <div class="t-seller-img ms-3">
+              <img src="./images/nft-bull.jpg" class="" alt="user">
+            </div>
+            <!-- <h6 class="nft-username ms-2 ">@Beck</h6> -->
+            <h5 class="ms-2">@Beck<br/><span class="h6">ipsum dolor</span></h5>
+            </div>
+          <!-- top seller img profile/ --> 
+          </div>
+      </div>
+      <!-- t-s-2 -->
+
+       <div class="row mx-auto text-center">
+
+        <div class="col-sm-12 col-md-6 col-lg-6">
+        <!-- top seller img profile -->
+          <div class="tps-card d-flex align-items-center text-whitemb-3 p-4">
+          <span class="bx bx-star"></span>
+          <div class="t-seller-img ms-3">
+            <img src="./images/client-6.png" class="img-fluid" alt=""> 
+          </div>
+          <h5 class="ms-2">@Cyberqueen<br/><span class="h6">ipsum dolor</span></h5>
+          </div>
+        <!-- top seller img profile/ --> 
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6">
+          <!-- top seller img profile -->
+            <div class="tps-card d-flex align-items-center mb-3 p-4">
+            <span class="bx bx-star"></span>
+            <div class="t-seller-img ms-3">
+            <img src="./images/nft-wolf.jpeg" class="img-fluid" alt=""> 
+            </div>
+            <h5 class="ms-2">@Ironhead<br/><span class="h6">ipsum dolor</span></h5>
+            </div>
+          <!-- top seller img profile/ --> 
+          </div>
+      </div>
+      <!-- t-s-3 -->
+
+      <div class="row mx-auto text-center">
+
+        <div class="col-sm-12 col-md-6 col-lg-6">
+        <!-- top seller img profile -->
+          <div class="tps-card d-flex align-items-center text-whitemb-3 p-4">
+          <span class="bx bx-star"></span>
+          <div class="t-seller-img ms-3">
+            <img src="./images/client-8.png" class="img-fluid" alt=""> 
+          </div>
+          <h5 class="ms-2">@Twister<br/><span class="h6">ipsum dolor</span></h5>
+          </div>
+        <!-- top seller img profile/ --> 
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6">
+          <!-- top seller img profile -->
+            <div class="tps-card d-flex align-items-center mb-3 p-4">
+            <span class="bx bx-star"></span>
+            <div class="t-seller-img ms-3">
+            <img src="./images/fish.jpg" class="img-fluid" alt=""> 
+            </div>
+            <h5 class="ms-2">@BigFish<br/><span class="h6">ipsum dolor</span></h5>
+            </div>
+          <!-- top seller img profile/ --> 
+          </div>
+      </div>
+      
+      <!-- t-s-4 -->
+     
+        </div> 
+        <a href="#gainers" class="NFT-btn d-inline-block mt-5 mb-5 w-50 mx-auto">Become Part Of The Space</a>
+        </div>
+     </div>
+    </section>
+    <!-- top sellers/ -->
+
+<!-- TODO LOOK AT THIS COUNTER NUMBERS -->
+    <!-- statistics  number data table -->
+    <section class="stats-banner p-4 position-reative d-none">
+      <div class="container stats-banner-numbers ">
+        <div class="row gy-5 nft-stat-row mx-auto justify-content-center ">
+         <div class="col-sm-6 col-lg-4 col-md-4">
+          <div class="text-center">
+            <h4 class="stats-numb">3468+</h4>
+            <h6 class="stats-numb-w mx-auto text-white">lorem contex data</h6>
+          </div> 
+         </div>
+
+         <div class="col-sm-6 col-lg-4 col-md-4">
+          <div class="text-center">
+            <h4 class="stats-numb">2468+</h4>
+            <h6 class="stats-numb-w mx-auto text-white">lorem contex data</h6>
+          </div> 
+         </div>
+
+         <div class="col-sm-6 col-lg-4 col-md-4">
+          <div class="text-center">
+            <h4 class="stats-numb">6368+</h4>
+            <h6 class="stats-numb-w mx-auto text-white">lorem contex data</h6>
+          </div> 
+         </div>
+        </div>
+
+      </div> 
+  </section>
+    <!-- statistics number data table -->
+
+
+    <!-- faq -->
+    <section id="FAQ" class="">
+      <div class="container">
+        <h3 class="headline-sm mb-2">FAQ</h3>
+        <h3 class="headline-md mb-4">Have a <span style="color: rgb(4, 219, 4);">Question ?</span></h3>
+        <div class="row">
+        <div class="col-lg-8 col-sm-12 col-md-12">
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header text-white " id="flush-headingOne">
+              <button class="accordion-button body-md collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+               What are NFT(s)?
+             </button> 
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body text-white label-md">
+             NFTs  are Most simply, an NFT is an entry on a blockchain, the same decentralized digital ledger technology that underlies cryptocurrencies like bitcoin. But unlike most bitcoin–which is fungible, meaning that one coin is essentially indistinguishable from another and equivalent in value–tokens on these blockchains are non-fungible. That means they are unique, so they can represent one-of-a-kind things, like a rare William Shatner headshot or even the title to a piece of real estate..</p>
+                </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header text-white " id="flush-headingOne">
+              <button class="accordion-button body-md collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+             When does minting begin and how can i become a top class member?        in  mind how do i reach you ?
+              </button> 
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body text-white label-md">
+                You can alway drop us an email and our team will be sure to get whitelist you to the top membership plat form after
+                completing task and providing pass key that will be sent to you.</p>
+                </div>
+            </div>
+          </div>
+    
+          <div class="accordion-item">
+            <h2 class="accordion-header text-white" id="flush-headingThree">
+              <button class="accordion-button  body-md collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                Are the NFTs in sale?
+              </button>
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body text-white label-md">All our NFT are in sale with ever booming prices so hurry while its still within reach.</div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header text-white" id="flush-headingThree">
+              <button class="accordion-button  body-md collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+               How do I connect are they pair members already owing these?
+              </button>
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body text-white label-md">
+                Yes there are pair members owing these...
+                Our social media activities is fire right now. You might wanna join our discord as the Heat cooks.</div>
+            </div>
+          </div>
+
+      <!-- ends accordion FAQ -->
+        </div>
+        </div>
+       <div class="col-lg-4 col-sm-12 col-md-12">
+        <div class="faq-card border d-flex flex-column p-1 text-center">
+          <i class="bx bx-shape-polygon pb-3" style="font-size: 3rem;"></i>
+          <span class="body-md text-capitalize mb-3">Documented All Possible Questions </span>
+          <p class="mt-1" style="color: rgba(255, 255, 255, 0.82);">Happy to respond to you and more.</p>
+        </div>
+        </div> 
+      </div>
+      </div>
+    </section>
+    
+    <!--
+
+      -->
+    <!-- Footer banner -->
+    <section class="mb-4">
+      <div class="container">
+        <div class="footer-banner p-5 ">
+          <div class="row">
+           <div class="col-lg-6 col-md-12 col-sm-12">
+             <img src="./images/nft-eth.jpg" class="img-fluid f-b_image mb-3" alt="" id="f-b_image" />
+           </div> 
+           <div class="col-lg-6 col-md-12 col-sm-12">
+            <div class="footer-banner-data mt-sm-3">
+              <h5 class="fbanner-meta text-white" id="fbanner-meta">JOIN US AND BE A PART OF A NEW DYNASTY</h5>
+              <p class="fbanner-p text-white" id="fbanner-p">The wolrds changing and the only way to survive is to stay open, positively accepting and Dynamic, become part of the elites while there is still a chance.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <a href="#f-b_image" clas="border rounded NFT-btn-outline label-lg" id="fbanner-btn">Launch</a>
+                <a href="#f-b_image" class="btn NFT-btn" id="fbanner-btn-2">Join now</a>
+              </div>
+            </div>
+          </div> 
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  -->
+   
+    <style>
+      .fbanner-meta{  font-size: var(--body-lg );}
+      .fbanner-p{  font-size: var(--body-md);}
+    </style>
+   </main>
+
+    <footer class="mt-4">
+      <div class="container footer-container "> 
+        <div class="row pt-4 gy-2">
+          <div class="col-lg-4">
+           <a class="footer_icon headline-md"><span class="logo-span  headline-md p-2 ">GO</span> NFT</a>
+            <p class="footer_word mt-4">An incredible collection of amazing rear assets, these NFTs ...nsectetur, adipisicing elit. Fuga pariatur voluptate, esse enim quidem mollitia temporibus debitis aliquid illum.</p>
+            <div class="footer_sm-word">
+              <div class="footer-socials">
+              <span class="bx bxl-facebook text-success"></span>
+              <span class="bx bxl-twitter text-success"></span>
+              <span class="bx bxl-discord text-success"></span>
+              <span class="bx bxl-github text-success"></span>
+              </div>
+              <div class="d-flex">
+                <img src="./images/app-store.svg" class="img-fluid">
+                <img src="./images/google-play.svg" class="img-fluid ms-lg-3">
+              </div>
+            </div>
+          </div>
+         <div class="col-lg-2">
+          <article>
+              <h5 class="footer-header"></h5>
+                <div class="d-flex flex-column align-items-start">
+                  <a href="" class="footer-links  fh">Trade NFT</a>
+                  <a href="" class="footer-links ">Tokinization</a>
+                  <a href="" class="footer-links ">Security</a>
+                  <a href="" class="footer-links ">AML/Compliance</a>
+          
+                </div>
+           </article> 
+        </div>
+        <div class="col-lg-2">
+          <article>
+              <h5 class="footer-header"></h5>
+                <div class="d-flex flex-column">
+                  <a href="" class="footer-links ">API</a>
+                  <a href="" class="footer-links ">Blog</a>
+                  <a href="" class="footer-links ">Metaverse</a>
+                  <a href="" class="footer-links ">Buy NFT</a>
+                  <a href="" class="footer-links ">Integrations</a>
+                </div>
+            </article> 
+        </div>
+        <div class="col-lg-2">
+          <article>
+              <h5 class="footer-header"></h5>
+                <div class="d-flex flex-column">
+                  <a href="" class="footer-links ">Company</a>
+                  <a href="" class="footer-links ">PSPs</a>
+                  <a href="" class="footer-links ">Market Makers / Prop Traders</a>
+                </div>
+            </article> 
+        </div>
+        <div class="col-lg-2">
+          <article>
+              <h5 class="footer-header"></h5>
+                <div class="d-flex flex-column">
+                  <a href="#" class="footer-links " style="color: rgb(4, 219, 4)">Developer</a>
+                  <!-- TODO PUT MY WEBSITE LINK -->
+                  <a href="" class="footer-links ">@Jomei</a>
+                  <a href="" class="footer-links ">Executive Team</a>
+                  <a href="" class="footer-links ">Partnership</a>
+                <div class="footer-svg">
+                  <img src="./images/showcase-6.gif" alt="" srcset="">
+                </div>
+                </div>
+            </article> 
+          </div>    
+        </div>
+        <article class="text-center mt-3 "><a href="https://jomeiibe.github.io/main-j" class="mylink"> &copy; Jomei Development</a></article>
+      </div>
+     </footer>
+
+
+
+     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <script src="https://unpkg.com//bootstrap.min.js"></script>
+    <script src="./js/autotyping.js"></script>
+  
+  
+   <!--removable links  -->
+    <script src="./js/proctected/bootstrap.min.js"></script>
+    <script src="./js/proctected/jquery/jquery-3.6.0.slim.min.js"></script>
+    <script src="./js/proctected/owl.carousel.min.js"></script>
+    
+
+    <script defer src="./js/index.js"></script>
+    <script defer src="./js/specialCrds.js"></script>
+</body>
+</html>

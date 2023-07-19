@@ -1,0 +1,49 @@
+.nftCards-wrapper{
+    display: grid; display: -ms-grid; display: -webkit-grid;
+    justify-content: center;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(20rem, 1fr))[auto-fit];
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 40px;
+}
+
+.profile {
+    position: relative;
+    display: block;
+    transform: translateY(-7rem);
+    -webkit-transform:  translateY(-7rem);
+}
+.profile-image {
+    position: relative;
+    display: block;
+    border: 13px solid var(--main-green);
+    height: 16.7rem;
+}
+.profile-image > img {
+    position: absolute;
+    height:  100%;  width:  100%;
+}
+
+
+@media screen and (max-width: 500px){
+.logo{
+    font-size: 15px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
